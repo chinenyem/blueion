@@ -270,15 +270,15 @@ border-color: transparent;
 }
 
 .btn-primary.active{
-  border-color:transparent;
+  // border-color:transparent;
 }
 
-.input-lg{
+.input-lg {
   font-size: 14px;
 }
 
 
-.input-lg : input-placeholder{
+.input-lg ::input-placeholder{
   color:red;
 }
 
@@ -993,6 +993,8 @@ font-size: 37px;
 
 .navbar-nav .open .dropdown-menu{
   margin-top: -57px;
+  width:20px;
+  margin-left: 79%;
 }
 
 
@@ -1006,6 +1008,9 @@ background-color: #bab5b0;
 }
 
 
+.dropdown-menu {
+font-size: 10px;
+}
 .navbar-default .navbar-toggle .icon-bar {
 background-color: #ffcb06;
 }
